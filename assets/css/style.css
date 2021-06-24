@@ -7,7 +7,8 @@
 body{
     font-family: Lato sans-serif;
     font-weight: 300px;
-    color: #3a3a3a;}
+    color: #3a3a3a;
+}
     h1,h2{
         font-family: oswald sans-serif;
         text-transform: uppercase;
@@ -75,18 +76,40 @@ transform: scale(1.1);
 
 /*module introduction section */
 #module-introduction{
-    height: 500px;
+    height: 600px;
 }
 #left-aim{
     padding-top: 30px;
-    width: 50%;
+    width: 33%;
     float: left;
-    background: blue;
-}
+   
+    }
+
 
 #video-intro{
     padding-top: 30px;
-    width: 50%;
+    width: 33%;
     float: right;
-    background: chartreuse;
+    
+}
+
+
+#learning-objective{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+   
+}
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px, 0;
+}
+.left-aim-heading{
+    width: 80%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }

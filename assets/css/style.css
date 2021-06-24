@@ -17,6 +17,7 @@ body{
     #logo{
         float: left;
         font-size: 150%;
+        margin-left: 30px;
     }
     /*navigation links */
 #menu{
@@ -51,12 +52,11 @@ body{
     overflow: hidden;
 }
 
-
 #water-image {
     height: 500px;
     width: 100%;
     background: url("../../images/water-image.jpg") no-repeat center center;
-    background-color: #252525;
+    
 
 /* image animation zoom properties */
 animation-name: image-zoom;
@@ -71,4 +71,22 @@ animation-fill-mode: forward;
     to{
 transform: scale(1.1);
     }
+}
+
+/*module introduction section */
+#module-introduction{
+    height: 500px;
+}
+#left-aim{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    background: blue;
+}
+
+#video-intro{
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background: chartreuse;
 }

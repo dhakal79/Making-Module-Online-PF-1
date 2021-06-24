@@ -44,9 +44,31 @@ body{
     border-bottom: 1px solid #3a3a3a;
 }
 /*hero image*/
-#hero-image {
-    height: 600px;
+
+#animation{
+    height: 500px;
     width: 100%;
-    background: url("../../images/hero-image.jpg") no-repeat center center;
+    overflow: hidden;
+}
+
+
+#water-image {
+    height: 500px;
+    width: 100%;
+    background: url("../../images/water-image.jpg") no-repeat center center;
     background-color: #252525;
+
+/* image animation zoom properties */
+animation-name: image-zoom;
+animation-duration: 10s;
+animation-fill-mode: forward;
+}
+/* animation of water image zoom */
+@keyframes image-zoom{
+    form{
+        transform: scale(1.0);
+    }
+    to{
+transform: scale(1.1);
+    }
 }
